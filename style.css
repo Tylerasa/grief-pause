@@ -7,23 +7,7 @@
 * {
 	margin:0 auto;
 }
-@font-face {
- font-family: 'helvetica_ce_55_romanregular';
- src: url('../fonts/helvetica_neue_ce_55_roman-webfont.eot');
- src: url('../fonts/helvetica_neue_ce_55_roman-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helvetica_neue_ce_55_roman-webfont.woff2') format('woff2'), url('../fonts/helvetica_neue_ce_55_roman-webfont.woff') format('woff'), url('../fonts/helvetica_neue_ce_55_roman-webfont.ttf') format('truetype'), url('../fonts/helvetica_neue_ce_55_roman-webfont.svg#helvetica_ce_55_romanregular') format('svg');
- font-weight: normal;
- font-style: normal;
-}
-@font-face {
- font-family: 'open_sansregular';
- src: url('../fonts/opensans-regular-webfont.eot');
- src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'), url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
- font-weight: normal;
- font-style: normal;
-}
-body {
-	font-family: 'helvetica_ce_55_romanregular';
-}
+
 /*for-section-text-start-here*/
 ::selection {
  background: #e73131; /* WebKit/Blink Browsers */
@@ -101,7 +85,7 @@ color: #FFF;
 	z-index: 9999;
 }
 #pre-status, .preload-placeholder {
-	background-image:url(../preloader.gif);
+	/* background-image:url(../preloader.gif); */
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 296px;
@@ -847,7 +831,7 @@ ul.nav li.active a:before {
 }
 /*Testimonials-stylesheets-include-here*/
 #testimonials {
-	background-image:url(../images/Testimonials/01.jpg);
+	background-image:url("https://unsplash.com/photos/FOeDIUwYiSw");
 	height:450px;
 	text-align:center;
 }
@@ -1279,7 +1263,7 @@ padding-top:15px;
     top: 0px;
     width: 100%;
     height: 100%;
-    background: url("../images/banner/overaly.png")repeat;
+    background: url("https://unsplash.com/photos/FOeDIUwYiSw")repeat;
 }
 a.btn-learn {
 	height: 50px;
@@ -1306,7 +1290,7 @@ a.btn-learn:hover {
 background:none;
 }
 #slider-parallax {
-  background:url(../images/Slider/10.jpg);
+  background:url("https://unsplash.com/photos/FOeDIUwYiSw");
   background-size: cover;
   background-attachment: fixed;
   background-repeat:no-repeat;
